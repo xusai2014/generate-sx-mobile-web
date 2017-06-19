@@ -1,6 +1,6 @@
 {
   "name": "generator-sx-mobile-web",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "这是一个移动端web开发的脚手架,项目技术选型是react+redux+webpack+es6.",
   "main": "index.js",
   "files": [
