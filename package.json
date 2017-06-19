@@ -1,0 +1,31 @@
+{
+  "name": "generator-sx-mobile-web",
+  "version": "1.0.0",
+  "description": "这是一个移动端web开发的脚手架,项目技术选型是react+redux+webpack+es6.",
+  "main": "index.js",
+  "files": [
+    "app",
+    "router"
+  ],
+  "scripts": {
+    "test": "sxm"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/xusai2014/generate-sx-mobile-web.git"
+  },
+  "keywords": [
+    "yeoman-generator",
+    "generator-sx-mobile-web"
+  ],
+  "author": "Jerry",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/xusai2014/generate-sx-mobile-web/issues"
+  },
+  "homepage": "https://github.com/xusai2014/generate-sx-mobile-web#readme",
+  "dependencies": {
+    "yeoman-generator": "^1.1.1",
+    "yosay": "^2.0.0"
+  }
+}
