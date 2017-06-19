@@ -38,11 +38,16 @@ module.exports =  class extends Generator {
 
     writing() {
         this.fs.copyTpl(
-            this.templatePath(),
-            this.destinationPath(this.appname),
-            {
-                title: 'Templating with Yeoman',
-            }
+            this.templatePath('public'),
+            this.destinationPath(`${this.appname}/public`)
+        );
+        this.fs.copyTpl(
+            this.templatePath('src'),
+            this.destinationPath(`${this.appname}/src`)
+        );
+        this.fs.copyTpl(
+            this.templatePath('webpack.config.babel.js'),
+            this.destinationPath(`${this.appname}/webpack.config.babel.js`)
         );
         this.fs.copyTpl(
             this.templatePath('package.json'),
